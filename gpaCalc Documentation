@@ -1,0 +1,10 @@
+package gpa_calculator;
+import java.lang.annotation.*;
+
+@Documented
+public @interface Doc{
+	String author();
+	String date();
+	String[] modifiers ();
+
+}
